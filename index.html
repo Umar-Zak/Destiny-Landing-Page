@@ -4,21 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="A Landing Page for Imaginary ride">
+    <title>Destiny-Landing Page</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body style="padding: 0rem;">
+<body  >
+<!-- Hero starts here -->
+<div class="header-section">
+    <nav class="nav collapsible">
+        <img src="Images/logo.png" alt="" class="logo">
+        <svg class="menu" id="light" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m21.5 24h-19c-1.379 0-2.5-1.122-2.5-2.5v-19c0-1.378 1.121-2.5 2.5-2.5h19c1.379 0 2.5 1.122 2.5 2.5v19c0 1.378-1.121 2.5-2.5 2.5zm-19-23c-.827 0-1.5.673-1.5 1.5v19c0 .827.673 1.5 1.5 1.5h19c.827 0 1.5-.673 1.5-1.5v-19c0-.827-.673-1.5-1.5-1.5z"/></g><g><path d="m16.5 8h-9c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5z"/></g><g><path d="m16.5 12.5h-9c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5z"/></g><g><path d="m16.5 17h-9c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5z"/></g></svg>
+        <ul class="nav__list collapsible__content">
+            <li class="nav__list-item"><a href="#">Blog</a></li>
+            <li class="nav__list-item"><a href="#">Prices</a></li>
+            <li class="nav__list-item"><a href="#">Showcase</a></li>
+            <li class="nav__list-item"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="block hero-block">
+        <div class="container grid grid--1x2">
+            <div class="hero__content" data-aos="fade-right">
+                <h1 class="hero__header">Meet Destiny, the visionary landing Page</h1>
+                <p class="hero__tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident, quae fugit nam consequatur repellat?</p>
+                <button class="btn btn--secondary">Take a ride</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Process Block starts here -->
+<div class="block container process-block">
+    <div class="block__heading">
+        <h2 class="process-block__header">Destiny isn't AI. It's human Intelligence</h2>
+        <p class="process-block__tagline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, libero.</p>
+    </div>
+    <div class="grid grid--1x3">
+       <div data-aos="fade-right" class="step">
+           <div class="step__icon-container">
+               <div class="icon-container">
+                   <svg class="icon">
+                       <use xlink:href="Icons/sprite.svg#adwords"></use>
+                   </svg>
+                  </div>
+           </div>
+              <h3 class="step__header">Register</h3>
+              <p class="step__tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt delectus dicta, dolore aspernatur dignissimos?</p>
+         </div>
+         <div data-aos="fade-up" class="step">
+           <div class="step__icon-container">
+               <div class="icon-container">
+                   <svg class="icon">
+                       <use xlink:href="Icons/sprite.svg#world-wide-web"></use>
+                   </svg>
+                  </div>
+           </div>
+              <h3 class="step__header">Get Verified</h3>
+              <p class="step__tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt delectus dicta, dolore aspernatur dignissimos?</p>
+         </div>
+         <div data-aos="fade-left" class="step">
+           <div class="step__icon-container">
+               <div class="icon-container">
+                   <svg class="icon">
+                       <use xlink:href="Icons/sprite.svg#location"></use>
+                   </svg>
+                  </div>
+           </div>
+              <h3 class="step__header">Start Riding</h3>
+              <p class="step__tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt delectus dicta, dolore aspernatur dignissimos?</p>
+         </div>
+    </div>
+</div>
+<!-- Features block starts here -->
+<div data-aos="fade-up" class="block block--light feature-block">
+    <div class="container">
+        <div class="feature">
+            <div class="grid grid--1x2">
+                <div class="feature__image-container">
+                    <img class="feature__image" src="Images/laptop.jpg" alt="A laptop on a table">
+        
+                </div>
+               
+            <div class="feature__content">
+                <h3 class="feature__header">Designed for Startups and brands</h3>
+                <p class="feature__tagline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, praesentium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem suscipit sapiente distinctio ab, voluptatem voluptatum.</p>
+                <ul class="feature__list">
+                    <li class="feature__list-item">Easy to grow</li>
+                    <li class="feature__list-item">Instant Access</li>
+                    <li class="feature__list-item">Free Guidelines</li>
+                </ul>
+                <button class="btn btn--primary">Learn More</button>
+            </div>
+            </div>
+        </div>
+        <div class="feature">
+            <div data-aos="zoom-in" class="grid grid--1x2">
+                <div class="feature__image-container">
+                    <img class="feature__image" src="Images/laptop.jpg" alt="A laptop on a table">
+        
+                </div>
+               
+            <div data-aos="fade-left" class="feature__content">
+                <h3 class="feature__header">Designed for Startups and brands</h3>
+                <p class="feature__tagline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, praesentium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem suscipit sapiente distinctio ab, voluptatem voluptatum.</p>
+                <ul class="feature__list">
+                    <li class="feature__list-item">Easy to grow</li>
+                    <li class="feature__list-item">Instant Access</li>
+                    <li class="feature__list-item">Free Guidelines</li>
+                </ul>
+                <button class="btn btn--primary">Learn More</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- Footer starts here -->
+  <footer class="block container footer-block">
+      <div class="author-container">
+        <img src="Images/author.jpg" alt="" class="footer__author-image">
+      </div>
+      <p class="footer-block__tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum adipisci eveniet fugiat aspernatur nemo?</p>
+  </footer>
  
-   <div class="block container">
-       <div class="block__heading">
-           <h1 class="block__header">Block header</h1>
-           <p class="block__tagline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ea odit numquam alias. Dolorum deleniti aut iure nostrum facilis nesciunt laudantium molestias reprehenderit nobis assumenda doloremque expedita doloribus voluptatum ab voluptatibus ex, illo provident illum praesentium autem quas consectetur eligendi. Illum esse officiis pariatur libero cumque eius. Fuga, blanditiis. Doloremque!</p>
-       </div>
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eius tempora et ipsum maxime hic quae, porro unde dicta officiis, doloribus nemo officia quidem aspernatur nihil, neque excepturi ratione obcaecati placeat. Sequi distinctio quia recusandae repellendus incidunt fugiat, illum minus aliquid delectus laudantium nostrum id ratione, quibusdam suscipit rerum consequuntur.
-   </div>
  <script src="main.js"></script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
